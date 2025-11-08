@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Phone, Calendar, Heart, Sparkles } from "lucide-react";
-import templeHero from "@/assets/temple-hero.jpg";
-import deity from "@/assets/deity.jpg";
+import templeHeroNew from "@/assets/temple-hero-new.jpg";
+import deityNew from "@/assets/deity-new.jpeg";
 import festival from "@/assets/festival.jpg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -31,7 +31,7 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${templeHero})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${templeHeroNew})`,
           }}
         />
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
@@ -101,7 +101,7 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src={deity}
+              src={deityNew}
               alt="Lord Veerabhadra Swamy"
               className="rounded-lg shadow-xl w-full object-cover"
             />
